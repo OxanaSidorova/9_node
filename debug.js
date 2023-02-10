@@ -1,4 +1,4 @@
-export const calculateBonus = (a, b) => {
+ const calculateBonus = (a, b) => {
     let bonus;
     const sum = a + b;
     debugger; // paused on debagger statment
@@ -7,7 +7,7 @@ export const calculateBonus = (a, b) => {
     return bonus;
     };
 
-    
+    module.exports = calculateBonus
 
 
 
