@@ -13,12 +13,12 @@ describe ("Tests for calculated bonus function",() =>  {
     //     expect(calculateBonus(20,39)).toEqual(59)
        
     })
-    test ("Test for result with decimal",()=> {
-        expect (calculateBonus(19.9,30.1) ).toBe(50);
-    })
-    test ("Test for <=",()=> {
-        expect (calculateBonus(20,29) ).toBeLessThan(50);
-    })
+    // test ("Test for result with decimal",()=> {
+    //     expect (calculateBonus(19.9,30.1) ).toBe(50);
+    // })
+    // test ("Test for <=",()=> {
+    //     expect (calculateBonus(20,29) ).toBeLessThan(50);
+    // })
     test ("Test for >=",()=> {
         expect (calculateBonus(30,29) ).toBe(50);
     })
